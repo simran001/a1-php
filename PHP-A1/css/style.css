@@ -1,0 +1,153 @@
+.navbar-brand img{
+    height: 80px;
+    width: auto;
+  }
+  /* Style the header */
+/* header {
+    background-color: #6494ed;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: black; 
+} */
+.class1{
+    height: 80vh;
+    width: 100%;
+    background-image: url('../image/pizza.jpg');
+    background-size: cover;
+  }
+.class1 div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.class1 div h1{
+    font-size:100px;
+    color: floralwhite;
+    text-align: center;
+    font-family: "Satisfy",sans-serif;
+  }
+
+/* Style the pizza order form and increase its size */
+.container {
+    max-width: 800px; /* Increased maximum width */
+    margin: 0 auto;
+    padding: 40px; /* Increased padding */
+    background-color: #f8f8f8; /* Background color for the form container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 30px; /* Increased font size */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px; /* Increased margin */
+    color: #333;
+}
+
+form select,
+form input[type="text"],form input[type="email"],form input[type="tel"] {
+    width: 100%;
+    padding: 15px; 
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; 
+}
+.custom-select {
+    width: 100%;
+}
+
+.custom-select label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: normal; /* Remove bold font weight */
+}
+
+.custom-select label input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Adjust the checkbox style */
+.custom-select label input[type="checkbox"] {
+    vertical-align: middle;
+}
+form button[type="submit"] {
+    background-color: dodgerblue; /* Background color for the button */
+    color: #fff;
+    padding: 15px 30px; /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #f0b707; /* Highlight color on hover */
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #6494ed;
+    color: #fff;
+    font-size: 25px;
+}
+
+footer p, h3{
+    margin: 0;
+    padding: 2px;
+    
+}
+ .form-group{
+    margin: 15px 0px;
+  }
+.submit-message{
+    text-align: center;
+  }
